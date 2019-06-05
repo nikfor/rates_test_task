@@ -1,0 +1,9 @@
+:concurrency: 25
+:queues:
+  - default
+  - valutes
+
+:schedule:
+  valutes:
+    every: 1h
+    class: Workers::Tinkoff::Rates

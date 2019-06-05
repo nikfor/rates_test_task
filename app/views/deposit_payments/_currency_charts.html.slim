@@ -1,0 +1,8 @@
+.row
+  .col-md-6
+    = line_chart (DepositPaymentsDecorator.decorate(currency).chart_data_buy)
+  .col-md-6
+    = line_chart (DepositPaymentsDecorator.decorate(currency).chart_data_sell)
+.row
+  .col-md-12
+    = render 'average', rates: currency

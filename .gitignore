@@ -28,4 +28,3 @@
 /config/database.yml
 /log/*
 /tmp/*
-/vendor/*
