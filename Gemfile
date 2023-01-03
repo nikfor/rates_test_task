@@ -26,7 +26,7 @@ gem 'redis', '~> 4.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 gem 'active_interaction', '~> 3.7', '>= 3.7.1'
-gem 'httparty', '~> 0.17.0'
+gem 'httparty', '~> 0.21.0'
 
 gem 'sidekiq'
 gem 'sidekiq-scheduler', '~> 3.0.0'
